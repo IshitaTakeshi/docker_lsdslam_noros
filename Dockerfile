@@ -15,7 +15,7 @@ RUN apt-get -y install wget cmake
 
 WORKDIR $WORKSPACE
 
-RUN apt-get -y install clang
+RUN apt-get -y install clang libgtk2.0-dev pkg-config
 
 RUN wget https://github.com/opencv/opencv/archive/$OPENCV_VERSION.tar.gz \
     && tar xvf $OPENCV_VERSION.tar.gz \
