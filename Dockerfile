@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 ARG OPENCV_VERSION=2.4.13.6
-ARG WORKSPACE=$HOME/workspace
+ARG WORKSPACE=/root/workspace
 ARG NTHREADS=4
 
 
